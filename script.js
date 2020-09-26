@@ -5,7 +5,7 @@ var guess = 1
 
 document.getElementById("resetForm").onclick = function clear1 (){
     document.getElementById("guessField").value = ""
-
+    location.reload();
 }
 
 
@@ -17,7 +17,7 @@ document.getElementById("submitGuess").onclick  = function (){
     {
         alert("CONGRATULATIONS!!!!! YOU GUESSED IT RIGH IN " + guess + " GUESSEES!! ");
         document.getElementById("guessField").value = ""
-
+        location.reload();
     }
     else if (x > y)
 
