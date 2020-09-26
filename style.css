@@ -21,3 +21,11 @@ body{
     width: 50px
 
 }
+#amountGuesses{
+    font-size: x-large;
+}
+.form{
+    text-align: center;
+    justify-content: center;
+    
+}
