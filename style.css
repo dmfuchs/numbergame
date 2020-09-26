@@ -2,13 +2,18 @@ html {
     font-family: sans-serif;
 
 }
-
-
 body{
     width: 50%;
     max-width: 800px;
     min-width: 480px;
     margin: 0 auto;
     justify-content: center;
+    text-align: center;
+}
 
+.container{
+    background-color: grey;
+    border: solid black;
+    padding: 29px;
+    margin: 2px
 }
