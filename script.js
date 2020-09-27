@@ -15,7 +15,7 @@ document.getElementById("submitGuess").onclick  = function (){
     var x = document.getElementById("guessField").value
     if (x == y)
     {
-        alert("CONGRATULATIONS!!!!! YOU GUESSED IT RIGHT IN " + guess + " GUESSEES!! ");
+        alert("CONGRATULATIONS!!!!! YOU GUESSED IT RIGHT IN " + guess + " GUESSES!! ");
         document.getElementById("guessField").value = ""
         location.reload();
     }
